@@ -21,6 +21,8 @@ Play audio files, stream audio from URL, using ReactNative.
 
 ## Usage
 
+// SoundPlayer.enableInSilenceMode(true); // if need to enable playback in silence mode, currently for iOS only 
+
 ### Play sound with file name and type
 
 1. Add sound files to iOS/Android.
