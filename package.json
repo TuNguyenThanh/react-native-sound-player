@@ -1,0 +1,52 @@
+{
+  "_from": "react-native-sound-player@^0.10.0",
+  "_id": "react-native-sound-player@0.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-QCBeQyh3s2vv7KQfwH7Ud2fkKPrFQ8nFZxQKI8LHoa7CpIlX+GMAUmhh4klGZBDzYB6DhCHhe0m+MbA4jeOxQA==",
+  "_location": "/react-native-sound-player",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-sound-player@^0.10.0",
+    "name": "react-native-sound-player",
+    "escapedName": "react-native-sound-player",
+    "rawSpec": "^0.10.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.10.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-sound-player/-/react-native-sound-player-0.10.0.tgz",
+  "_shasum": "9f503a5c96865d6ab0b1d366ccee6731a1293e60",
+  "_spec": "react-native-sound-player@^0.10.0",
+  "_where": "/Users/macuser/Ant-Tech/Project/muziq-mobile/myiogames",
+  "author": {
+    "name": "Johnson Su",
+    "email": "johnsonsu@johnsonsu.com"
+  },
+  "bugs": {
+    "url": "https://github.com/johnsonsu/react-native-sound-player/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Play or stream audio files in ReactNative on iOS/Android",
+  "homepage": "https://github.com/johnsonsu/react-native-sound-player#readme",
+  "keywords": [
+    "reactnative",
+    "react-native",
+    "sound",
+    "player",
+    "audio",
+    "streaming"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-sound-player",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsonsu/react-native-sound-player.git"
+  },
+  "version": "0.10.0"
+}
