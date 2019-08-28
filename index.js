@@ -14,6 +14,10 @@ module.exports = {
   enableInSilenceMode: (enabled: boolean) => {
     RNSoundPlayer.enableInSilenceMode(enabled)
   },
+  
+  setCategory: () => {
+    RNSoundPlayer.setCategory()
+  },
 
   playSoundFile: (name: string, type: string) => {
     RNSoundPlayer.playSoundFile(name, type)
