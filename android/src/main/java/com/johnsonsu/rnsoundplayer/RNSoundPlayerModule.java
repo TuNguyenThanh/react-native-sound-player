@@ -17,7 +17,7 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
-
+import android.media.AudioManager;
 
 public class RNSoundPlayerModule extends ReactContextBaseJavaModule {
 
@@ -54,6 +54,13 @@ public class RNSoundPlayerModule extends ReactContextBaseJavaModule {
   public void playUrl(String url) throws IOException {
     prepareUrl(url);
     this.mediaPlayer.start();
+  }
+  
+  @ReactMethod
+  public void setCategory() throws IOException {
+    if (this.mediaPlayer != null) {
+      this.mediaPlayer.setAudioStreamType(AudioManager.STREAM_NOTIFICATION);
+    }
   }
 
   @ReactMethod
